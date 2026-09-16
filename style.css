@@ -25,6 +25,11 @@ html, body {
   padding: 0;
 }
 
+/* keep anchored headings clear of the sticky header (up to ~117px when nav wraps) */
+html {
+  scroll-padding-top: 7.75rem;
+}
+
 body {
   background: var(--bg);
   color: var(--fg);
